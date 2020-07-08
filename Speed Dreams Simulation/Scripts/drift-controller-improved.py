@@ -64,7 +64,7 @@ while counter < epochs:
         if c == 50 :
             flag2 = True
     if flag2 :
-        throttle = 1.3 * (14 - v_x)
+        throttle = 1.3 * (14 - v_x) + 0.1 * (0.69 - (omega * r_rear))
         steer_ang_rad = - 0.11 - 0.096 * (-7.8594 - v_y) + 0.65 * (0.5049 - yaw_change)
         steer_ang = math.degrees(steer_ang_rad)
     
