@@ -67,3 +67,9 @@ The simulation can be run using the script **drift-controller.py** in the Script
 **Note** : Due to a little difference in the car modification, the final car is a little differrent from the car used in the actual Research Paper. Also, due to my incapability of following the procedure to identify the parameters for myself the simulation isn't actually completely effective. The drift in my simulation doesn't let both the rear wheels to loose traction but allows only one of them which may not be considered a complete drift.
 
 I appreciate any help and would love to have someone who could help make the simulation better and effective.
+
+## Update
+
+I have completed the correct way of simulating the controller. Although, due to time and resources constraint I was not able to optimize it completely.
+
+You can check the simulation videos here : https://www.youtube.com/playlist?list=PLyaoGIPY0iPzKkG4SkY3HLmsnwZQLtp1Z
